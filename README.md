@@ -1,2 +1,2 @@
 # chtime
-Golang channels with timout
+Custom Golang channels with timeout.

@@ -3,8 +3,8 @@ Custom Golang channels with timeout.
 
 Example:
 
+```golang
 package main
-
 import (
 	"time"
 	"log"
@@ -29,4 +29,5 @@ func Add(a string, ch chtime.Ch){
 	}
 	log.Printf(a+ b.(string))
 }
+```
 

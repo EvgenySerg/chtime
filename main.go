@@ -3,8 +3,7 @@ package main
 import (
 	"time"
 	"log"
-	"test/chanTimeout/chtime"
-
+	"ttt/chtime"
 )
 
 func main()  {
@@ -16,6 +15,8 @@ func main()  {
 		time.Sleep(1*time.Second)
 }
 
+
+// Add new value
 func Add(a string, ch chtime.Ch){
 	b,err:=ch.Receive(2)
 	if err!=nil{
